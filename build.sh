@@ -14,7 +14,7 @@ cat > "$APP/Contents/Info.plist" <<P
 <key>CFBundlePackageType</key><string>APPL</string>
 <key>CFBundleIconFile</key><string>AppIcon</string>
 <key>LSUIElement</key><true/>
-<key>LSMinimumSystemVersion</key><string>11.0</string>
+<key>LSMinimumSystemVersion</key><string>13.0</string>
 </dict></plist>
 P
 codesign --force --sign - "$APP"
